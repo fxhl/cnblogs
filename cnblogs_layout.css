@@ -1,0 +1,39 @@
+﻿/*点赞与点踩界面*/
+#div_digg {
+    /*position: fixed;    暂时不浮动*/
+    bottom: 5px;
+    width: 112px;
+    height:80px;
+    right: 20px;
+    border: 2px solid #6FA833;
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+/*点赞*/
+.diggit {
+    float: left;
+    width: 112px;
+    height: 85px;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    background: url('http://files.cnblogs.com/files/fengxuehuanlin/zan.gif') no-repeat;
+    background-position-x:center; 
+    text-align: center;
+    cursor: pointer;
+}
+/*点踩*/
+.buryit {
+display:none;
+}
+/*点赞数字*/
+.diggnum {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 28px;
+}
+/*点赞后的提升文字*/
+.diggword {
+margin:0;
+}
